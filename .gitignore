@@ -9,8 +9,6 @@ apps/*/dist-exe
 infra/*/dist
 .astro
 packages/*/dist
-.env
-.env.local
 build/
 .logs/
 release/
@@ -43,8 +41,8 @@ native/**/target/
 node_modules/
 .alchemy/
 *.log
-.env*
 !.env.example
 
 # pnpm content-addressable store; never belongs in the repo.
 .pnpm-store/
+config.bat
